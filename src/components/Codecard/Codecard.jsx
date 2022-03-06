@@ -11,6 +11,7 @@ const Codecard = () => {
         <div>
          <h1>{item.title}</h1>
          <h6>{item['asked on']}</h6>
+         <h5>{item.question}</h5>
          <h6 className="text-muted">{item.topic}</h6>
         <SyntaxHighlighter className="rounded" language="cpp" style={tomorrow}>
         {item.code}
